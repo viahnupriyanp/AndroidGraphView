@@ -5,15 +5,7 @@ import android.os.Bundle;
 
 import com.vishnu.graphview.GraphView.GraphViewData;
 
-/**
- * GraphViewDemo creates some dummy data to demonstrate the GraphView component.
- *
- * IMPORTANT: For examples take a look at GraphView-Demos (https://github.com/jjoe64/GraphView-Demos)
- *
- * Copyright (C) 2011 Jonas Gehring
- * Licensed under the GNU Lesser General Public License (LGPL)
- * http://www.gnu.org/licenses/lgpl.html
- */
+
 public class GraphViewDemo extends Activity {
 	/**
 	 * @param savedInstanceState

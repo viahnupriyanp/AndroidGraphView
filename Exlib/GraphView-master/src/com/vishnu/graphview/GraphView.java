@@ -18,17 +18,7 @@ import android.widget.LinearLayout;
 import com.vishnu.graphview.GraphViewSeries.GraphViewSeriesStyle;
 import com.vishnu.graphview.compatible.ScaleGestureDetector;
 
-/**
- * GraphView is a Android View for creating zoomable and scrollable graphs.
- * This is the abstract base class for all graphs. Extend this class and implement {@link #drawSeries(Canvas, GraphViewData[], float, float, float, double, double, double, double, float)} to display a custom graph.
- * Use {@link LineGraphView} for creating a line chart.
- *
- * @author jjoe64 - jonas gehring - http://www.jjoe64.com
- *
- * Copyright (C) 2011 Jonas Gehring
- * Licensed under the GNU Lesser General Public License (LGPL)
- * http://www.gnu.org/licenses/lgpl.html
- */
+
 abstract public class GraphView extends LinearLayout {
 	static final private class GraphViewConfig {
 		static final float BORDER = 20;

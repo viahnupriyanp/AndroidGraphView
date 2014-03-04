@@ -6,10 +6,7 @@ import android.util.AttributeSet;
 
 import com.vishnu.graphview.GraphViewSeries.GraphViewSeriesStyle;
 
-/**
- * Draws a Bar Chart
- * @author Muhammad Shahab Hameed
- */
+
 public class BarGraphView extends GraphView {
 	public BarGraphView(Context context, AttributeSet attrs) {
 		super(context, attrs);
